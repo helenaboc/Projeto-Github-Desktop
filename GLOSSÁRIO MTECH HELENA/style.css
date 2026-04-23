@@ -1,0 +1,44 @@
+body {
+    background-image: url(fundoamareloevermelho.jpg);
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    line-height:35px;
+}
+h1 {
+   font-family: fonte02;
+    font-size:50px; 
+}
+nav {
+    background-color: rgb(61, 46, 46);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap:30px; /* Espaçamento entre os itens */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+p {
+    display: inline-block; /* Necessário para links/spans */
+    transition: transform 0.3s ease; /* Suaviza o aumento */
+}
+p:hover {
+  transform: scale(1.3); /* Aumenta 20% o tamanho */
+}
+
+}
+h2 {
+    font-family: fonte02;
+    font-size: 50px;
+}
+dt {
+    font-family: fonte03;
+    font-size: 25px;
+}
+
+dd {
+    font-family: fonte03;
+    font-size: 18px;
+}

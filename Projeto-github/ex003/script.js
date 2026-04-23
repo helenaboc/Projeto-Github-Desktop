@@ -29,10 +29,10 @@ function iniciarCadastro() {
     
         if (genero === null) {
         document.getElementById("resultado").innerHTML =
-        "<H2>Cadastro cancelado</h2><p>O usuário cancelou o preenchimento</p>"
+        "<h2>Cadastro cancelado</h2><p>O usuário cancelou o preenchimento</p>"
         return;
         }
-        
+
         document.getElementById("resultado").innerHTML =
         "<h2>Resultado</h2><p><strong>Gênero:</strong>" + genero + "</p>";
 }            
