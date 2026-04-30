@@ -14,7 +14,7 @@ function pedirnome(){
         let partesNome = nome.split(/\s+/);
         if (partesNome.length < 2){
             alert("Digite o nome completo, com nome e sobrenome.")
-        continue/
+        continue;
         }
         if (nome.length < 3) {
             alert("Digite um nome válido")
@@ -33,4 +33,4 @@ function pedirnome(){
             "<p><strong>Nome Completo:<strong></p>"
             }
             
-        }
+}

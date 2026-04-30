@@ -4,25 +4,13 @@
 <meta charset="UTF-8">
 <title>Dicionário de Programação A-Z</title>
 <link rel="stylesheet" href="style.css">
-<style>
-    @font-face {
-        font-family: fonte02;
-        src: url(/GLOSSÁRIO\ MTECH\ HELENA/Fonte/AleviRou.ttf);
-
-    @font-face {
-        font-family: fonte03;
-        src: url(/GLOSSÁRIO\ MTECH\ HELENA/Fonte/gabi_sans_irregular.ttf);
-    }
-    }
-</style>
 </head>
-
 <body>
-
+<input type="text" id="searchInput" placeholder="Pesquisar termo...">
 <h1>Dicionário de Programação</h1>
 
 <!-- MENU A-Z -->
-<nav>
+<nav id="Menu-Principal">
     <p>
         <a href="#A">A</a> |
         <a href="#B">B</a> |
@@ -262,6 +250,10 @@
 <dd><em>Define a ordem de camadas no CSS.</em></dd>
 
 </dl>
+
+<button id="btnVoltar" title="Voltar ao topo">↑</button>
+
 <script src="script.js"></script>
+
 </body>
 </html>

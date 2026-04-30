@@ -78,3 +78,7 @@ class Calculator{
     }
     
 }
+
+p:hover {
+  transform: scale(1.3); /* Aumenta 20% o tamanho */
+}
