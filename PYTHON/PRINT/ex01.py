@@ -1,0 +1,8 @@
+print("Nome: Helena")
+print("Natural: Governador Valadares")
+print("Nacionalidade: Brasileira")
+print("Sexo: Feminino")
+print("Residência: Brasília")
+print("Profissão: Psicóloga")
+print("Data: 05/05/2026")
+print("Assinatura: Helena")
